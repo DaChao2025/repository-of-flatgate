@@ -7,6 +7,7 @@ import os
 #     os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 import warnings
 warnings.filterwarnings('ignore')
+import openbackdoor._compat  # noqa: F401 - opendelta vs transformers 4.49+
 import json
 import argparse
 import csv

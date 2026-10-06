@@ -1,3 +1,5 @@
+from . import _compat  # noqa: F401 - patch opendelta vs modern transformers before other imports
+
 from . import data
 from .data import load_dataset
 from .data.data_processor import DataProcessor
