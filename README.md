@@ -5,7 +5,7 @@ A framework for evaluating backdoor attacks and defenses on generative large lan
 ## Installation
 
 ```bash
-conda env create -f environment.yml
+bash setup_env.sh
 conda activate defense
 ```
 
